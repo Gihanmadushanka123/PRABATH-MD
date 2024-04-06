@@ -1,0 +1,257 @@
+2024-03-29T07:10:10.335007+00:00 app[api]: Release v2 created by user ghkjhahb@gmail.com
+2024-03-29T07:10:10.351271+00:00 app[api]: Enable Logplex by user ghkjhahb@gmail.com
+2024-03-29T07:10:10.351271+00:00 app[api]: Release v3 created by user ghkjhahb@gmail.com
+2024-03-29T07:10:10.524702+00:00 app[api]: Release v4 created by user ghkjhahb@gmail.com
+2024-03-29T07:10:10.524702+00:00 app[api]: Set OWNER_NAME, ALIVE_MESSAGE, AUTO_STATUS_SAVER, AUTO_READ_STATUS, HEROKU_API_KEY, HEROKU_APP_NAME, THUMB_IMAGE, ANTI_BAD_WORD, ANTILINK_VALUES, ANTILINK_ACTION, LEVEL_UP_MESSAGE, SUDO, READ_MESSAGE, PREFIX, OWNER_NUMBER, SESSION_ID, OPENAI_API_KEY, MONGODB_URI, THEME, WORKTYPE, AUTO_REACTION, PACK_INFO, heroku config vars by user ghkjhahb@gmail.com
+2024-03-29T07:10:11.000000+00:00 app[api]: Build started by user ghkjhahb@gmail.com
+2024-03-29T07:13:14.000000+00:00 app[api]: Build succeeded
+2024-03-29T07:13:14.550970+00:00 app[api]: Deployed worker (e19834831abc) by user ghkjhahb@gmail.com
+2024-03-29T07:13:14.550970+00:00 app[api]: Release v5 created by user ghkjhahb@gmail.com
+2024-03-29T07:13:15.448791+00:00 app[api]: Scaled to worker@1:Basic by user ghkjhahb@gmail.com
+2024-03-29T07:13:40.069075+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2024-03-29T07:13:40.741123+00:00 heroku[worker.1]: State changed from starting to up
+2024-03-29T07:13:41.426286+00:00 app[worker.1]: 
+2024-03-29T07:13:41.426306+00:00 app[worker.1]: > Saviya-Md@0.0.7 start
+2024-03-29T07:13:41.426306+00:00 app[worker.1]: > pm2 start lib/client.js --deep-monitoring --attach --name Saviya
+2024-03-29T07:13:41.426306+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611695+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611697+00:00 app[worker.1]:                         -------------
+2024-03-29T07:13:41.611697+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611698+00:00 app[worker.1]: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2024-03-29T07:13:41.611698+00:00 app[worker.1]:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2024-03-29T07:13:41.611698+00:00 app[worker.1]:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2024-03-29T07:13:41.611699+00:00 app[worker.1]:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2024-03-29T07:13:41.611699+00:00 app[worker.1]:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2024-03-29T07:13:41.611699+00:00 app[worker.1]:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2024-03-29T07:13:41.611699+00:00 app[worker.1]:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2024-03-29T07:13:41.611699+00:00 app[worker.1]:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2024-03-29T07:13:41.611700+00:00 app[worker.1]:         _\///______________\///______________\///__\///////////////__
+2024-03-29T07:13:41.611700+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611700+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611700+00:00 app[worker.1]:                           Runtime Edition
+2024-03-29T07:13:41.611700+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611701+00:00 app[worker.1]:         PM2 is a Production Process Manager for Node.js applications
+2024-03-29T07:13:41.611703+00:00 app[worker.1]:                      with a built-in Load Balancer.
+2024-03-29T07:13:41.611703+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611704+00:00 app[worker.1]:                 Start and Daemonize any application:
+2024-03-29T07:13:41.611704+00:00 app[worker.1]:                 $ pm2 start app.js
+2024-03-29T07:13:41.611704+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611704+00:00 app[worker.1]:                 Load Balance 4 instances of api.js:
+2024-03-29T07:13:41.611704+00:00 app[worker.1]:                 $ pm2 start api.js -i 4
+2024-03-29T07:13:41.611705+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611705+00:00 app[worker.1]:                 Monitor in production:
+2024-03-29T07:13:41.611705+00:00 app[worker.1]:                 $ pm2 monitor
+2024-03-29T07:13:41.611705+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611705+00:00 app[worker.1]:                 Make pm2 auto-boot at server restart:
+2024-03-29T07:13:41.611706+00:00 app[worker.1]:                 $ pm2 startup
+2024-03-29T07:13:41.611706+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611706+00:00 app[worker.1]:                 To go further checkout:
+2024-03-29T07:13:41.611706+00:00 app[worker.1]:                 http://pm2.io/
+2024-03-29T07:13:41.611706+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611706+00:00 app[worker.1]: 
+2024-03-29T07:13:41.611706+00:00 app[worker.1]:                         -------------
+2024-03-29T07:13:41.611707+00:00 app[worker.1]: 
+2024-03-29T07:13:41.720436+00:00 app[worker.1]: [PM2] Spawning PM2 daemon with pm2_home=/root/saviya55/.pm2
+2024-03-29T07:13:41.904594+00:00 app[worker.1]: [PM2] PM2 Successfully daemonized
+2024-03-29T07:13:41.918100+00:00 app[worker.1]: [PM2] Starting /root/saviya55/lib/client.js in fork_mode (1 instance)
+2024-03-29T07:13:41.931748+00:00 app[worker.1]: [PM2] Done.
+2024-03-29T07:13:41.959464+00:00 app[worker.1]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2024-03-29T07:13:41.959467+00:00 app[worker.1]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2024-03-29T07:13:41.959469+00:00 app[worker.1]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2024-03-29T07:13:41.959469+00:00 app[worker.1]: │ 0  │ Saviya    │ default     │ 0.0.7   │ fork    │ 38       │ 0s     │ 0    │ online    │ 0%       │ 32.4mb   │ u26028   │ disabled │
+2024-03-29T07:13:41.959469+00:00 app[worker.1]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2024-03-29T07:13:41.959844+00:00 app[worker.1]: [PM2][INFO] Log streaming apps id: 0, exit with Ctrl-C or will exit in 10secs
+2024-03-29T07:13:42.776114+00:00 app[worker.1]: 0|Saviya  | 🌍 Connected to the SAVIYA DB
+2024-03-29T07:13:46.045564+00:00 app[worker.1]: 0|Saviya  | (node:38) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+2024-03-29T07:13:46.045617+00:00 app[worker.1]: 0|Saviya  | (Use `node --trace-deprecation ...` to show where the warning was created)
+2024-03-29T07:13:46.045878+00:00 app[worker.1]: 0|Saviya  | Izuku Server listening on port http://localhost:4448!
+2024-03-29T07:13:46.604213+00:00 app[worker.1]: 0|Saviya  | 📡 Connecting to WhatsApp... Please Wait.
+2024-03-29T07:13:46.832152+00:00 app[worker.1]: 0|Saviya  | ✅ SAVIYA MD Login Successful!
+2024-03-29T07:13:46.832359+00:00 app[worker.1]: 0|Saviya  | ⬇️  SAVIYA MD Installing External Plugins...
+2024-03-29T07:13:56.609099+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:13:56.609156+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:13:56.609157+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:13:56.609157+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:13:56.609805+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:13:56.609823+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:13:56.609841+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:13:56.609852+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:13:56.832280+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `plugindbs.find()` buffering timed out after 10000ms
+2024-03-29T07:13:56.832305+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:13:56.832326+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:13:56.832346+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:14:12.776755+00:00 app[worker.1]: 0|Saviya  | MongooseServerSelectionError: connection <monitor> to 35.212.45.179:57477 closed
+2024-03-29T07:14:12.776788+00:00 app[worker.1]: 0|Saviya  |     at NativeConnection.Connection.openUri (/root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/connection.js:847:32)
+2024-03-29T07:14:12.776789+00:00 app[worker.1]: 0|Saviya  |     at /root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/index.js:351:10
+2024-03-29T07:14:12.776789+00:00 app[worker.1]: 0|Saviya  |     at /root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+2024-03-29T07:14:12.776790+00:00 app[worker.1]: 0|Saviya  |     at new Promise (<anonymous>)
+2024-03-29T07:14:12.776803+00:00 app[worker.1]: 0|Saviya  |     at promiseOrCallback (/root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+2024-03-29T07:14:12.776932+00:00 app[worker.1]: 0|Saviya  |     at Mongoose._promiseOrCallback (/root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/index.js:1149:10)
+2024-03-29T07:14:12.776943+00:00 app[worker.1]: 0|Saviya  |     at Mongoose.connect (/root/saviya55/node_modules/discord-xp/node_modules/mongoose/lib/index.js:350:20)
+2024-03-29T07:14:12.776954+00:00 app[worker.1]: 0|Saviya  |     at Function.setURL (/root/saviya55/node_modules/discord-xp/index.js:14:21)
+2024-03-29T07:14:12.776966+00:00 app[worker.1]: 0|Saviya  |     at Object.<anonymous> (/root/saviya55/lib/client.js:64:12)
+2024-03-29T07:14:12.776976+00:00 app[worker.1]: 0|Saviya  |     at Module._compile (node:internal/modules/cjs/loader:1126:14)
+2024-03-29T07:14:12.776986+00:00 app[worker.1]: 0|Saviya  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+2024-03-29T07:14:12.776996+00:00 app[worker.1]: 0|Saviya  |     at Module.load (node:internal/modules/cjs/loader:1004:32)
+2024-03-29T07:14:12.777013+00:00 app[worker.1]: 0|Saviya  |     at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+2024-03-29T07:14:12.777023+00:00 app[worker.1]: 0|Saviya  |     at Object.<anonymous> (/root/saviya55/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2024-03-29T07:14:12.777033+00:00 app[worker.1]: 0|Saviya  |     at Module._compile (node:internal/modules/cjs/loader:1126:14)
+2024-03-29T07:14:12.777042+00:00 app[worker.1]: 0|Saviya  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10) {
+2024-03-29T07:14:12.777052+00:00 app[worker.1]: 0|Saviya  |   reason: TopologyDescription {
+2024-03-29T07:14:12.777060+00:00 app[worker.1]: 0|Saviya  |     type: 'Single',
+2024-03-29T07:14:12.777078+00:00 app[worker.1]: 0|Saviya  |     setName: null,
+2024-03-29T07:14:12.777087+00:00 app[worker.1]: 0|Saviya  |     maxSetVersion: null,
+2024-03-29T07:14:12.777097+00:00 app[worker.1]: 0|Saviya  |     maxElectionId: null,
+2024-03-29T07:14:12.777108+00:00 app[worker.1]: 0|Saviya  |     servers: Map(1) { 'monorail.proxy.rlwy.net:57477' => [ServerDescription] },
+2024-03-29T07:14:12.777118+00:00 app[worker.1]: 0|Saviya  |     stale: false,
+2024-03-29T07:14:12.777127+00:00 app[worker.1]: 0|Saviya  |     compatible: true,
+2024-03-29T07:14:12.777137+00:00 app[worker.1]: 0|Saviya  |     compatibilityError: null,
+2024-03-29T07:14:12.777147+00:00 app[worker.1]: 0|Saviya  |     logicalSessionTimeoutMinutes: null,
+2024-03-29T07:14:12.777155+00:00 app[worker.1]: 0|Saviya  |     heartbeatFrequencyMS: 10000,
+2024-03-29T07:14:12.777165+00:00 app[worker.1]: 0|Saviya  |     localThresholdMS: 15,
+2024-03-29T07:14:12.777175+00:00 app[worker.1]: 0|Saviya  |     commonWireVersion: null
+2024-03-29T07:14:12.777193+00:00 app[worker.1]: 0|Saviya  |   }
+2024-03-29T07:14:12.777204+00:00 app[worker.1]: 0|Saviya  | }
+2024-03-29T07:14:16.031126+00:00 app[worker.1]: 0|Saviya  | Could not connect with Mongodb.
+2024-03-29T07:14:16.031175+00:00 app[worker.1]: 0|Saviya  | Please visit https://secktorbot.tech/wiki
+2024-03-29T07:14:38.086089+00:00 app[worker.1]: 0|Saviya  | Message in Personal
+2024-03-29T07:14:38.086149+00:00 app[worker.1]: 0|Saviya  | From=> ◤☄✰ßugͥFiͣxͫed✰☄◢ 94723205812@s.whatsapp.net
+2024-03-29T07:14:38.086149+00:00 app[worker.1]: 0|Saviya  | Message:.menu
+2024-03-29T07:14:38.086150+00:00 app[worker.1]: 0|Saviya  | ----------------------------
+2024-03-29T07:14:38.270703+00:00 app[worker.1]: 0|Saviya  | Connection has closed with bot. Please put New Session ID again.
+2024-03-29T07:14:46.951060+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:14:46.951111+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:14:46.951112+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:14:46.951112+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:14:48.086972+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.findOne()` buffering timed out after 10000ms
+2024-03-29T07:14:48.087033+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:14:48.087034+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:14:48.087034+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:14:58.087311+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `chatbots.findOne()` buffering timed out after 10000ms
+2024-03-29T07:14:58.087365+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:14:58.087365+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:14:58.087366+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:28.775020+00:00 app[worker.1]: 0|Saviya  | 📡 Connecting to WhatsApp... Please Wait.
+2024-03-29T07:15:28.977908+00:00 app[worker.1]: 0|Saviya  | ✅ SAVIYA MD Login Successful!
+2024-03-29T07:15:28.978170+00:00 app[worker.1]: 0|Saviya  | ⬇️  SAVIYA MD Installing External Plugins...
+2024-03-29T07:15:38.776675+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:15:38.776709+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:38.776713+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:38.776713+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:38.776930+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:15:38.776955+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:38.776957+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:38.776968+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:38.978621+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `plugindbs.find()` buffering timed out after 10000ms
+2024-03-29T07:15:38.978635+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:38.978657+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:38.978675+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:42.021765+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:42.021804+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:42.021805+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:42.021805+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:42.507894+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:42.507935+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:42.507937+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:42.507937+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:43.480668+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:43.480705+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:43.480705+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:43.480705+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:44.473152+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:44.473206+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:44.473208+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:44.473209+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:45.431668+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:45.431672+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:45.431691+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:45.431692+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:15:49.513075+00:00 app[worker.1]: 0|Saviya  | Closing open session in favor of incoming prekey bundle
+2024-03-29T07:15:49.513893+00:00 app[worker.1]: 0|Saviya  | Closing session: SessionEntry {
+2024-03-29T07:15:49.513901+00:00 app[worker.1]: 0|Saviya  |   _chains: {
+2024-03-29T07:15:49.513914+00:00 app[worker.1]: 0|Saviya  |     'BX2zWKSwGqhpK1e/Y71mHj++htKtaAISoF6QinG/FZM/': { chainKey: [Object], chainType: 2, messageKeys: {} },
+2024-03-29T07:15:49.513953+00:00 app[worker.1]: 0|Saviya  |     'BXyQkL60pDcyHTOSLC/fiFfwOS5OkIFsVDs1yUU0G7QQ': { chainKey: [Object], chainType: 1, messageKeys: {} }
+2024-03-29T07:15:49.513965+00:00 app[worker.1]: 0|Saviya  |   },
+2024-03-29T07:15:49.513973+00:00 app[worker.1]: 0|Saviya  |   registrationId: 1668385216,
+2024-03-29T07:15:49.513983+00:00 app[worker.1]: 0|Saviya  |   currentRatchet: {
+2024-03-29T07:15:49.513992+00:00 app[worker.1]: 0|Saviya  |     ephemeralKeyPair: {
+2024-03-29T07:15:49.514010+00:00 app[worker.1]: 0|Saviya  |       pubKey: <Buffer 05 7c 90 90 be b4 a4 37 32 1d 33 92 2c 2f df 88 57 f0 39 2e 4e 90 81 6c 54 3b 35 c9 45 34 1b b4 10>,
+2024-03-29T07:15:49.514019+00:00 app[worker.1]: 0|Saviya  |       privKey: <Buffer c8 df de 77 99 56 7a 82 88 18 a6 dd 82 8f 0e 4e 0b b4 6b d3 7f 64 ea 83 82 2c 9e a3 61 dd c1 67>
+2024-03-29T07:15:49.514028+00:00 app[worker.1]: 0|Saviya  |     },
+2024-03-29T07:15:49.514039+00:00 app[worker.1]: 0|Saviya  |     lastRemoteEphemeralKey: <Buffer 05 7d b3 58 a4 b0 1a a8 69 2b 57 bf 63 bd 66 1e 3f be 86 d2 ad 68 02 12 a0 5e 90 8a 71 bf 15 93 3f>,
+2024-03-29T07:15:49.514195+00:00 app[worker.1]: 0|Saviya  |     previousCounter: 0,
+2024-03-29T07:15:49.514237+00:00 app[worker.1]: 0|Saviya  |     rootKey: <Buffer cb 31 a8 32 26 7f d5 be 08 d7 f4 94 29 6a 41 56 7c 21 6a 06 3a a0 ef 99 93 8e 22 1b 5a 2d a3 bf>
+2024-03-29T07:15:49.514257+00:00 app[worker.1]: 0|Saviya  |   },
+2024-03-29T07:15:49.514265+00:00 app[worker.1]: 0|Saviya  |   indexInfo: {
+2024-03-29T07:15:49.514274+00:00 app[worker.1]: 0|Saviya  |     baseKey: <Buffer 05 72 ce cd e0 c7 05 d5 3e e4 61 74 5d da 63 6b 65 de bd 82 a7 74 37 a0 47 d7 c0 93 10 de 79 90 7d>,
+2024-03-29T07:15:49.514286+00:00 app[worker.1]: 0|Saviya  |     baseKeyType: 2,
+2024-03-29T07:15:49.514295+00:00 app[worker.1]: 0|Saviya  |     closed: -1,
+2024-03-29T07:15:49.514305+00:00 app[worker.1]: 0|Saviya  |     used: 1711696478062,
+2024-03-29T07:15:49.514314+00:00 app[worker.1]: 0|Saviya  |     created: 1711696478062,
+2024-03-29T07:15:49.514326+00:00 app[worker.1]: 0|Saviya  |     remoteIdentityKey: <Buffer 05 18 cc a5 1b 0d 65 53 18 40 6b e5 c4 36 bd 47 6c 5d 58 5e 80 46 fd f5 0b d6 b6 80 58 b9 f2 83 0a>
+2024-03-29T07:15:49.514335+00:00 app[worker.1]: 0|Saviya  |   }
+2024-03-29T07:15:49.514353+00:00 app[worker.1]: 0|Saviya  | }
+2024-03-29T07:15:49.536615+00:00 app[worker.1]: 0|Saviya  | Message in Personal
+2024-03-29T07:15:49.536626+00:00 app[worker.1]: 0|Saviya  | From=> ◤☄✰ßugͥFiͣxͫed✰☄◢ 94723205812@s.whatsapp.net
+2024-03-29T07:15:49.536639+00:00 app[worker.1]: 0|Saviya  | Message:.menu
+2024-03-29T07:15:49.536640+00:00 app[worker.1]: 0|Saviya  | ----------------------------
+2024-03-29T07:15:59.544921+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.findOne()` buffering timed out after 10000ms
+2024-03-29T07:15:59.544951+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:15:59.544952+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:15:59.544952+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:09.544995+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `chatbots.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:09.545041+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:09.545041+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:09.545042+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:12.611025+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:12.611079+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:12.611080+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:12.611081+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:12.802275+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:12.802277+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:12.802289+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:12.802291+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:13.280715+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:13.280758+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:13.280758+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:13.280759+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:13.777399+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:13.777454+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:13.777455+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:13.777455+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:13.777802+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:13.777826+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:13.777846+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:13.777864+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:14.403229+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:16:14.403270+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:16:14.403271+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:16:14.403271+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:16:19.783972+00:00 app[worker.1]: 0|Saviya  | Connection has closed with bot. Please put New Session ID again.
+2024-03-29T07:17:10.286534+00:00 app[worker.1]: 0|Saviya  | 📡 Connecting to WhatsApp... Please Wait.
+2024-03-29T07:17:10.486184+00:00 app[worker.1]: 0|Saviya  | ✅ SAVIYA MD Login Successful!
+2024-03-29T07:17:10.486440+00:00 app[worker.1]: 0|Saviya  | ⬇️  SAVIYA MD Installing External Plugins...
+2024-03-29T07:17:20.288450+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:17:20.288625+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:20.288810+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:20.288842+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:17:20.289062+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `scks.find()` buffering timed out after 10000ms
+2024-03-29T07:17:20.289075+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:20.289080+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:20.289087+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:17:20.487170+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `plugindbs.find()` buffering timed out after 10000ms
+2024-03-29T07:17:20.487196+00:00 app[worker.1]: 0|Saviya  |     at Timeout._onTimeout (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:20.487198+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:20.487198+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:17:36.880191+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:17:36.880238+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:36.880239+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:36.880239+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:17:36.880663+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:17:36.880705+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:36.880706+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:36.880714+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
+2024-03-29T07:17:37.306418+00:00 app[worker.1]: 0|Saviya  | MongooseError: Operation `sck1.findOne()` buffering timed out after 10000ms
+2024-03-29T07:17:37.306453+00:00 app[worker.1]: 0|Saviya  |     at Timeout.<anonymous> (/root/saviya55/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+2024-03-29T07:17:37.306459+00:00 app[worker.1]: 0|Saviya  |     at listOnTimeout (node:internal/timers:559:17)
+2024-03-29T07:17:37.306459+00:00 app[worker.1]: 0|Saviya  |     at processTimers (node:internal/timers:502:7)
